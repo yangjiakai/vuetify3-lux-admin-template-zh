@@ -1,7 +1,7 @@
 <!--
-* @Component: 
+* @Component:
 * @Maintainer: J.K. Yang
-* @Description: 
+* @Description:
 -->
 <script setup lang="ts">
 import configs from "@/configs";
@@ -111,7 +111,7 @@ const scrollToBottom = () => {
               variant="elevated"
               @click="openGithubSite"
             >
-              Star-Me
+              给我点个赞吧
             </v-btn>
           </v-card-actions>
         </v-card>

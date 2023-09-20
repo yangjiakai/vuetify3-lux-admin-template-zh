@@ -1,26 +1,22 @@
 export default [
   {
     icon: "mdi-file-lock-outline",
-    key: "menu.auth",
-    text: "Auth Pages",
+    text: "权限页面",
     regex: /^\/auth/,
     items: [
       {
         icon: "mdi-login",
-        key: "menu.authLogin",
-        text: "Signin / Login",
+        text: "登录",
         link: "/auth/signin",
       },
       {
         icon: "mdi-logout",
-        key: "menu.authRegister",
-        text: "Signup / Register",
+        text: "注册",
         link: "/auth/signup",
       },
       {
         icon: "mdi-email-check",
-        key: "menu.authVerify",
-        text: "Signup / AuthVerify",
+        text: "邮箱验证",
         link: "/auth/verify-email",
       },
 

@@ -18,8 +18,8 @@ const handleLogout = () => {
 
 const navs = [
   {
-    title: "Profile Details",
-    key: "menu.profileDetails",
+    title: "个人信息",
+
     link: "/profile",
     icon: "mdi-account-box-outline",
   },
@@ -111,7 +111,7 @@ const navs = [
 
           <div>
             <v-list-item-subtitle class="text-body-2">
-              Help Center
+              帮助中心
             </v-list-item-subtitle>
           </div>
         </v-list-item>
@@ -129,7 +129,7 @@ const navs = [
 
           <div>
             <v-list-item-subtitle class="text-body-2">
-              Logout
+              退出登录
             </v-list-item-subtitle>
           </div>
         </v-list-item>

@@ -1,8 +1,7 @@
 export default [
   {
     icon: "mdi-dots-hexagon",
-    key: "menu.toolbarPage",
-    text: "Toolbar Page",
+    text: "工具栏",
     link: "/landing/toolbar",
   },
 ];

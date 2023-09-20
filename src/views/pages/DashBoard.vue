@@ -17,8 +17,8 @@ import TicketsCard from "@/components/dashboard/TicketsCard.vue";
             class="h-100"
             :percentage="3.2"
             style="min-height: 380px"
-            :percentage-label="$t('dashboard.lastweek')"
-            :action-label="$t('dashboard.viewReport')"
+            percentage-label="上周"
+            action-label="查看报告"
           ></sales-card>
         </v-card>
       </v-col>

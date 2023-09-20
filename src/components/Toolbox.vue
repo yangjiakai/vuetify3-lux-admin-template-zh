@@ -33,7 +33,7 @@ const toolboxShow = ref(false);
         <v-tooltip
           activator="parent"
           location="left"
-          :text="$t('toolbox.codeAssistant.title')"
+          text="代码助手"
         ></v-tooltip>
       </v-btn>
       <!-- ---------------------------------------------- -->
@@ -44,7 +44,7 @@ const toolboxShow = ref(false);
         <v-tooltip
           activator="parent"
           location="left"
-          :text="$t('toolbox.playGround.title')"
+          text="PlayGround"
         ></v-tooltip>
       </v-btn>
     </v-card>

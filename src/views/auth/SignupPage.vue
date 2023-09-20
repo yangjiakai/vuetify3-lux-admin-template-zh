@@ -58,7 +58,7 @@ const resetErrors = () => {
 <template>
   <v-card color="white" class="pa-3 ma-3" elevation="3">
     <v-card-title primary-title class="my-4 text-h4">
-      <span class="flex-fill"> {{ $t("register.title") }} </span>
+      <span class="flex-fill"> 注册</span>
     </v-card-title>
     <v-card-subtitle>Let's build amazing products</v-card-subtitle>
     <!-- sign in form -->
@@ -74,7 +74,7 @@ const resetErrors = () => {
           v-model="username"
           required
           :error="error"
-          :label="$t('register.username')"
+          label="用户名"
           density="default"
           variant="underlined"
           color="primary"
@@ -91,7 +91,7 @@ const resetErrors = () => {
           v-model="email"
           required
           :error="error"
-          :label="$t('register.email')"
+          label="邮箱"
           density="default"
           variant="underlined"
           color="primary"
@@ -110,7 +110,7 @@ const resetErrors = () => {
           :type="showPassword ? 'text' : 'password'"
           :error="error"
           :error-messages="errorMessages"
-          :label="$t('register.password')"
+          label="密码"
           density="default"
           variant="underlined"
           color="primary"
@@ -131,13 +131,13 @@ const resetErrors = () => {
           color="primary"
           @click="handleRegister"
           class="mt-2"
-          >{{ $t("register.button") }}</v-btn
+          >注册</v-btn
         >
 
         <div
           class="text-grey text-center text-caption font-weight-bold text-uppercase my-5"
         >
-          {{ $t("register.orsign") }}
+          或登录
         </div>
 
         <!-- external providers list -->
@@ -168,23 +168,19 @@ const resetErrors = () => {
         </div>
 
         <div class="my-5 text-center">
-          {{ $t("register.agree") }}
+          签署即表示您同意
           <br />
-          <router-link class="text-primary" to="">{{
-            $t("common.tos")
-          }}</router-link>
+          <router-link class="text-primary" to="">服务条款</router-link>
           &
-          <router-link class="text-primary" to="">{{
-            $t("common.policy")
-          }}</router-link>
+          <router-link class="text-primary" to="">隐私政策</router-link>
         </div>
       </v-form></v-card-text
     >
   </v-card>
   <div class="text-center mt-6">
-    {{ $t("register.account") }}
+    已经有帐号了？
     <router-link to="/auth/signin" class="text-primary font-weight-bold">
-      {{ $t("register.signin") }}
+      登录
     </router-link>
   </div>
 </template>

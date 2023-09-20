@@ -7,11 +7,10 @@ export default {
   menu: [
     {
       text: "",
-      key: "",
       items: [
         {
-          key: "menu.dashboard",
-          text: "Dashboard",
+
+          text: "仪表盘",
           link: "/dashboard",
           icon: "mdi-view-dashboard-outline",
         },
@@ -31,7 +30,6 @@ export default {
     },
     {
       text: "Pages",
-      key: "menu.pages",
       items: menuPages,
     },
 

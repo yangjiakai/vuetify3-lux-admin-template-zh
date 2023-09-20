@@ -122,7 +122,7 @@ onMounted(() => {
     <!-- information -->
     <div v-else class="d-flex flex-column flex-grow-1">
       <v-card-title class="d-flex">
-        <div class="font-weight-bold">{{ $t(label) }}</div>
+        <div class="font-weight-bold">营业额</div>
         <v-spacer></v-spacer>
         <v-btn
           variant="text"
@@ -140,16 +140,14 @@ onMounted(() => {
           </div>
           <div class="text-primary mt-1">
             {{ formatCurrency(4275.21) }}
-            {{ $t("dashboard.lastweek") }}
+            上周
           </div>
         </div>
 
         <v-spacer></v-spacer>
 
         <div class="px-2 pb-2">
-          <div class="title mb-1 font-weight-bold">
-            {{ $t("dashboard.weeklySales") }}
-          </div>
+          <div class="title mb-1 font-weight-bold">周销售额</div>
           <div class="d-flex align-center">
             <div class="text-h4">
               {{ formatCurrency(value) }}

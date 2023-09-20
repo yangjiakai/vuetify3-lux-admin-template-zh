@@ -11,7 +11,7 @@
         This page you are looking for could not be found.
       </h4>
       <v-btn flat color="#705CF6" class="mb-4 text-white" to="/"
-        >Go Back to Home</v-btn
+        >回到首页</v-btn
       >
     </div>
   </v-card>

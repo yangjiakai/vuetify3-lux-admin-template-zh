@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Animation404 from "@/components/animations/Animation404.vue";
+import { Vue3Lottie } from "vue3-lottie";
 </script>
 <template>
   <v-card
@@ -8,10 +8,13 @@ import Animation404 from "@/components/animations/Animation404.vue";
     class="d-flex justify-center align-center text-center"
   >
     <div>
-      <Animation404 />
-
+      <Vue3Lottie
+        animationLink="https://assets2.lottiefiles.com/packages/lf20_cr9slsdh.json"
+        :height="500"
+        :width="500"
+      />
       <v-btn flat color="#00A9D7" class="mb-4 text-white" to="/"
-        >Go Back to Home</v-btn
+        >回到首页</v-btn
       >
     </div>
   </v-card>

@@ -76,7 +76,7 @@ const signInWithFacebook = () => {
           v-model="email"
           required
           :error="error"
-          :label="$t('login.email')"
+          label="邮箱"
           density="default"
           variant="underlined"
           color="primary"
@@ -96,7 +96,7 @@ const signInWithFacebook = () => {
           :type="showPassword ? 'text' : 'password'"
           :error="error"
           :error-messages="errorMessages"
-          :label="$t('login.password')"
+          label="密码"
           placeholder="sfm12345"
           density="default"
           variant="underlined"
@@ -118,13 +118,13 @@ const signInWithFacebook = () => {
           color="primary"
           @click="handleLogin"
           class="mt-2"
-          >{{ $t("login.button") }}</v-btn
+          >登录</v-btn
         >
 
         <div
           class="text-grey text-center text-caption font-weight-bold text-uppercase my-5"
         >
-          {{ $t("login.orsign") }}
+          或使用
         </div>
 
         <!-- external providers list -->
@@ -159,16 +159,16 @@ const signInWithFacebook = () => {
 
         <div class="mt-5 text-center">
           <router-link class="text-primary" to="/auth/forgot-password">
-            {{ $t("login.forgot") }}
+            忘记密码
           </router-link>
         </div>
       </v-form></v-card-text
     >
   </v-card>
   <div class="text-center mt-6">
-    {{ $t("login.noaccount") }}
+    还没有账号？
     <router-link to="/auth/signup" class="text-primary font-weight-bold">
-      {{ $t("login.create") }}
+      创建账号
     </router-link>
   </div>
 </template>

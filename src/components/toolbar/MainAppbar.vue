@@ -6,7 +6,6 @@
 <script setup lang="ts">
 import { useDisplay } from "vuetify";
 import { useCustomizeThemeStore } from "@/stores/customizeTheme";
-import LanguageSwitcher from "@/components/toolbar/LanguageSwitcher.vue";
 import ToolbarUser from "./ToolbarUser.vue";
 const { mdAndUp } = useDisplay();
 const customizeTheme = useCustomizeThemeStore();
@@ -32,7 +31,6 @@ const customizeTheme = useCustomizeThemeStore();
       <v-spacer></v-spacer>
 
       <div class="d-flex">
-        <LanguageSwitcher />
         <ToolbarUser />
       </div>
     </div>
