@@ -28,12 +28,12 @@
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/README.zh-CN.md">简体中文</a>| <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/README.jp.md">日本語</a>
+<b>English</b> | <a href="https://github.com/yangjiakai/vuetify3-admin-template-zhn/blob/main/README.zh-CN.md">简体中文</a>| <a href="https://github.com/yangjiakai/vuetify3-admin-template-zhn/blob/main/README.jp.md">日本語</a>
 </p>
 
 ## 📖Introduction
 
-> I18n Base Template For Vuetify3-lux-admin
+> No I18n Base Template For Vuetify3-lux-admin
 
 ## 📚Features
 
