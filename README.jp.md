@@ -28,7 +28,7 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/README.md">English</a> | <a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/README.zh-CN.md">简体中文</a>| <b >日本語</b>
+<a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/README.md">English</a> | <a href="https://github.com/yangjiakai/vuetify3-lux-admin-template-zh/blob/main/README.zh-CN.md">简体中文</a>| <b >日本語</b>
 </p>
 
 ## 📖 序文
