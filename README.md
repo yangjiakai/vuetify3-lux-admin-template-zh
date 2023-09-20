@@ -22,7 +22,7 @@
 </p>
 
 <h4 align='center'>
-<a href="lux-zh.netlify.app">Live Demo</a>
+<a href="https://lux-zh.netlify.app">Live Demo</a>
 </h4>
 
 <br>
