@@ -16,13 +16,13 @@
     <img src="https://img.shields.io/badge/vite-v4.2.1-blueviolet.svg" alt="element-ui">
   </a>
   
-  <a href="https://github.com/yangjiakai/lux-admin-vuetify3/blob/main/LICENSE">
+  <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
 </p>
 
 <h4 align='center'>
-<a href="https://lux.vuetify3.com/">Live Demo</a>
+<a href="lux-zh.netlify.app>Live Demo</a>
 </h4>
 
 <br>
@@ -53,10 +53,6 @@
 - 📚 virtual-scroller , vuedraggable , perfect-scrollbar
 - 📝 Rich Text Editor
 - 📇 Responsive multi-platform adaptive
-
-## 📈 Project Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/306361b2af1a8556f64a0a828e1726a94bff36f0.svg "Repobeats analytics image")
 
 ## 💬Contact Me
 
