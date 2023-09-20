@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/vite-v4.2.1-blueviolet.svg" alt="element-ui">
   </a>
   
-  <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/LICENSE">
+  <a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
 </p>
@@ -28,12 +28,22 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/README.md">English</a> | <b>简体中文</b>| <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/README.jp.md">日本語</a>
+<a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/README.md">English</a> | <b>简体中文</b>| <a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/README.jp.md">日本語</a>
 </p>
 
 ## 📖 序文
 
-> vuetify3-lux-admin 的 Base 模板（非国际化）
+- vuetify3-lux-admin 的 Base 模板（非国际化）
+
+## 📖 其他版本
+
+精简国际化模板: <a href="https://github.com/yangjiakai/vuetify3-lux-admin-template-i18n/tree/main">vuetify3-lux-admin-template-i18n</a>
+
+完整版: <a href="https://github.com/yangjiakai/lux-admin-vuetify3/tree/main">vuetify3-lux-admin</a>
+
+Nuxt3 版本：制作中
+
+## 文档
 
 ## 📚 特性
 

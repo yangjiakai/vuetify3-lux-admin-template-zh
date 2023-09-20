@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/vite-v4.2.1-blueviolet.svg" alt="element-ui">
   </a>
   
-  <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/LICENSE">
+  <a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
 </p>

@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/vite-v4.2.1-blueviolet.svg" alt="element-ui">
   </a>
   
-  <a href="https://github.com/yangjiakai/vuetify3-admin-template-i18n/blob/main/LICENSE">
+  <a href="https://github.com/yangjiakai/vuetify3-admin-template-zh/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
 </p>
@@ -33,7 +33,17 @@
 
 ## 📖Introduction
 
-> No I18n Base Template For Vuetify3-lux-admin
+- No I18n Base Template For Vuetify3-Lux-Admin
+
+## 📖 其他版本
+
+Simplified i18n version: <a href="https://github.com/yangjiakai/vuetify3-lux-admin-template-i18n/tree/main">vuetify3-lux-admin-template-i18n</a>
+
+Fullversion: <a href="https://github.com/yangjiakai/lux-admin-vuetify3/tree/main">vuetify3-lux-admin</a>
+
+Nuxt3 Version: Creating
+
+## 文档
 
 ## 📚Features
 
