@@ -100,7 +100,7 @@ Nuxt3 版本：制作中
 ```
 
 
-npm install
+yarn install
 
-npm run dev
+yarn dev
 ```

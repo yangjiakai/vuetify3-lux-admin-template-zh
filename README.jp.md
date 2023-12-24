@@ -81,9 +81,9 @@
 
 ## 👻 今すぐ試す!
 
-npm install
+yarn install
 
-npm run dev
+yarn dev
 
 ```
 

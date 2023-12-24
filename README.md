@@ -99,7 +99,7 @@ Nuxt3 Version: Creating
 
 ```
 
-npm install
+yarn install
 
-npm run dev
+yarn dev
 ```
